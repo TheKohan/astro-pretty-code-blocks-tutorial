@@ -1,0 +1,31 @@
+---
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+        <div class="content">
+            <slot/>
+        </div>
+	</body>
+</html>
+
+<style>
+    body { 
+        width: 100vw;
+        height: 100vh;
+        background-color: #1E293B;
+        color:white;
+    }
+    .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3rem;
+    }
+</style>
