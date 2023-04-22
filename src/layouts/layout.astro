@@ -16,16 +16,24 @@
 	</body>
 </html>
 
-<style>
+<style is:global>
     body { 
         width: 100vw;
         height: 100vh;
-        background-color: #1E293B;
+        background-color: #1c78a6;
         color:white;
     }
     .content {
         max-width: 800px;
+        font-size: 16px;
         margin: 0 auto;
         padding: 3rem;
+    }
+
+    .content pre > code {
+        display: grid;
+        padding: 1.5rem 0;
+        background-color: #1E293B;
+        border-radius: 0.5rem;
     }
 </style>
